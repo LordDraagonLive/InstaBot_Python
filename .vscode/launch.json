@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "External Terminal/Console",
             "type": "python",
@@ -17,20 +18,6 @@
             "envFile": "${workspaceFolder}/.env",
             "debugOptions": [],
             "internalConsoleOptions": "neverOpen"
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "stopOnEntry": true,
-            "pythonPath": "${config:python.pythonPath}",
-            "program": "${file}",
-            "cwd": "${workspaceFolder}",
-            "env": {},
-            "envFile": "${workspaceFolder}/.env",
-            "debugOptions": [
-                "RedirectOutput"
-            ]
         },
         {
             "name": "Python: Current File",
@@ -65,20 +52,6 @@
             "program": "${file}",
             "cwd": "",
             "console": "integratedTerminal",
-            "env": {},
-            "envFile": "${workspaceFolder}/.env",
-            "debugOptions": [],
-            "internalConsoleOptions": "neverOpen"
-        },
-        {
-            "name": "Python: Terminal (external)",
-            "type": "python",
-            "request": "launch",
-            "stopOnEntry": true,
-            "pythonPath": "${config:python.pythonPath}",
-            "program": "${file}",
-            "cwd": "",
-            "console": "externalTerminal",
             "env": {},
             "envFile": "${workspaceFolder}/.env",
             "debugOptions": [],
