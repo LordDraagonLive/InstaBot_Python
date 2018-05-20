@@ -1,6 +1,7 @@
 # InstaBot_Python
 [![built with Python3](https://img.shields.io/badge/built%20with-Python3-red.svg)](https://www.python.org/)
 [![built with Selenium](https://img.shields.io/badge/built%20with-Selenium-yellow.svg)](https://github.com/SeleniumHQ/selenium)
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LordDraagonLive/InstaBot_Python/blob/master/LICENSE)
 
 # About
 A bot script to automate Instagram with Python and Selenium
