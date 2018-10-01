@@ -31,9 +31,9 @@ inputs = browser.find_elements_by_xpath('//form/div/div/div/input')
 
 ActionChains(browser)\
     .move_to_element(inputs[0]).click()\
-    .send_keys('buddhiadikari@live.com')\
+    .send_keys('buddhiadhikari@live.com')\
     .move_to_element(inputs[1]).click()\
-    .send_keys('Iwillsurvive#123#')\
+    .send_keys('#123#')\
     .perform()
 
 #make sure the browser stays open for 2 secs
